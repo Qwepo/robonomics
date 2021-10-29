@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div :class="{ 'container': true, 'background': background }">
     <div class="nav">
       <a href="#" class="nav__link">About us</a>
       <a href="#" class="nav__link">Job</a>
@@ -12,18 +12,25 @@
 <script>
 export default {
   name: 'headers',
-  props: ['background']
+  props: {
+    background: {
+      type: Boolean, default: false
+    }
+  }
 }
 
 </script>
 
 <style>
+.container.background {
+  background: #000;
+}
+
 .nav{
   min-height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--background);
   z-index: 5;
 }
 .nav__link{

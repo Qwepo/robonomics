@@ -8,7 +8,7 @@
       <div class="container">
         <div class="home__inner">
           <img src="../assets/logo.png" alt="" class="logo">
-          <h1> Laboratory of Multi-Agent Systems in Smart Cities and Industry 4.0</h1>
+          <h1 class="home__text"> Laboratory of Multi-Agent Systems in Smart Cities and Industry 4.0</h1>
         </div>
       </div>
     </div>
@@ -65,16 +65,22 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: calc(100vh - 40px);
 }
+
 .logo{
-  width: 30%;
+  width: 550px;
   margin: 30px;
 }
 .home__text {
   color: #fff;
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 30px;
 }
-
+  @media screen and (max-width: 1000px) {
+    .bckg {
+    height: 100vh;
+    width: auto;
+  }
+}
 </style>
