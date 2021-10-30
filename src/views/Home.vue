@@ -66,6 +66,7 @@ export default {
   align-items: center;
   justify-content: center;
   height: calc(100vh - 40px);
+  margin: 0 400px;
 }
 
 .logo{
@@ -77,10 +78,25 @@ export default {
   font-weight: 700;
   font-size: 30px;
 }
-  @media screen and (max-width: 1000px) {
-    .bckg {
+
+/* Adaptation for smartphones */
+/* Adaptation for 1200px */
+@media screen and (max-width: 1200px) {
+  .home{
     height: 100vh;
-    width: auto;
+    overflow: hidden;
+    position: relative;
   }
+  .bckg{
+    height: auto;
+  }
+}
+@media screen and (min-width: 922px) and (max-width: 1199px) {
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 650)  {
 }
 </style>

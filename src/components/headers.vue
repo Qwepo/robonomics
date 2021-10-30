@@ -41,6 +41,7 @@ export default {
   text-transform: uppercase;
   font-weight: 700;
   color: #fff;
+
   border-radius: 5%;
   transition: background-color 0.1s linear;
 
@@ -52,9 +53,11 @@ export default {
   width: 100%;;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .nav__link{
-    margin: 0 auto;
+    margin: 0 2%;
+
+    font-size: 15px;
   }
 }
 </style>
