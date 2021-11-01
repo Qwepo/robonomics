@@ -90,6 +90,7 @@ export default {
   .bckg{
     height: auto;
   }
+
 }
 @media (min-width: 1200px) {
 
@@ -103,7 +104,7 @@ export default {
     flex-direction: column;
   }
   .logo{
-    width: 300px;
+    width: 400px;
   }
   .home__text{
     text-align: center;
@@ -131,6 +132,23 @@ export default {
   }
 }
 @media screen and (max-width: 767px) {
+  .bckg{
+    height: 100vh;
+    width: auto;
+    position: absolute;
+  }
+  .home__inner{
+   margin: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo{
+    width: 500px;
+  }
+  .home__text{
+    text-align: center;
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 480px) {
   .bckg{
