@@ -91,12 +91,70 @@ export default {
     height: auto;
   }
 }
+@media (min-width: 1200px) {
+
+  .home{
+    height: auto;
+    align-items: center;
+  }
+  .home__inner{
+    margin-top: -50px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .logo{
+    width: 300px;
+  }
+  .home__text{
+    text-align: center;
+    font-size: 20px;
+  }
+}
 @media screen and (min-width: 922px) and (max-width: 1199px) {
+   .home{
+    height: auto;
+    align-items: center;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  .home__inner{
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .logo{
+    width: 250px;
+  }
+  .home__text{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
 }
 @media screen and (max-width: 480px) {
+  .bckg{
+    height: 100%;
+    width: auto;
+  }
+  .home{
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  .home__inner{
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo{
+    width: 300px;
+  }
+  .home__text{
+    text-align: center;
+    font-size: 20px;
+  }
+
 }
-@media screen and (max-width: 650)  {
-}
+
 </style>
