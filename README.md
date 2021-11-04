@@ -1,24 +1,40 @@
 # robonomics
 
-## Project setup
+## If you are working on linux
 ```
-npm install
+    npm install -g npm
+
 ```
 
-### Compiles and hot-reloads for development
+### If you worcking on Windows
+
+[Download](https://nodejs.org/en/download/) from the link and install.
+
+
+### Check if installed
 ```
-npm run serve
+npm -v
 ```
 
-### Compiles and minifies for production
+### Downloadn and install vue.js
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+npm vue -v
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Install yarn
+```
+npm install --global yarn
+```
+### Check installation
+```
+yarn --version
+```
+### Install packages
+```
+yarn
+```
+### Run server
+```
+yarn serve
+```
+
